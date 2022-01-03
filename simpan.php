@@ -13,7 +13,7 @@ if ($result->num_rows < 5) {
     $stmt = $conn->prepare($sql);
     $stmt->bind_param('sss', $nama, $nomatriks, $track);
     $stmt->execute();
-   /* if ($conn->error) {
+    /* if ($conn->error) {
 ?>
         <script>
             alert('anda sudah mendaftar');
@@ -23,7 +23,7 @@ if ($result->num_rows < 5) {
     } */
     header('location: index.php');
 } else {
-    ?>
+?>
     <script>
         alert('track anda pilih sudah penuh');
         window.location = 'index.php';

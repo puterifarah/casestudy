@@ -44,9 +44,8 @@ $result = $stmt->get_result();
             }
             ?>
         </table><br><br>
-    <a href="index.php">BACK</a>
+        <a href="index.php">BACK</a>
     </center>
-
 </body>
 
 </html>

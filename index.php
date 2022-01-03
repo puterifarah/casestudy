@@ -1,5 +1,5 @@
 <?php
-require 'conn.php';
+require 'conn.php'; #connection database
 ?>
 
 <!DOCTYPE html>
@@ -30,6 +30,7 @@ require 'conn.php';
             <input type="radio" id="track" name="track" value="software">
             Software
         </label>
+
         <label>
             <input type="radio" id="track" name="track" value="network">
             Network
@@ -52,7 +53,9 @@ require 'conn.php';
 
     <table border="3" width="50%">
         <tr>
-            <th colspan="3">Senarai Trek</th>
+            <th>Senarai Trek</th>
+            <th>Bilangan Pelajar</th>
+            <th>Tindakan</th>
         </tr>
 
         <tr>
